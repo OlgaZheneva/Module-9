@@ -20,6 +20,7 @@ const config = [
       indent: ['error', 2],
       quotes: ['error', 'single'],
       semi: ['error', 'always'],
+      'prettier/prettier': ['error'], 
     },
   },
   pluginJs.configs.recommended,
@@ -32,6 +33,7 @@ const config = [
       },
     },
   },
+  'plugin:prettier/recommended', 
 ];
 
 export default config;
